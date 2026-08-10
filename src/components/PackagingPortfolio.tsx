@@ -2,10 +2,12 @@
 
 import { useState } from 'react';
 import { Layers, PackageCheck, Shield, Eye, X } from 'lucide-react';
+import Vero_Face_Wash_Dieline_HD from '../../assets/images/Social/PackagingDesign/vero-facewash/Vero_Face_Wash_Dieline_HD.png';
+import image_2 from '../../assets/images/Social/PackagingDesign/vero-facewash/image_2.png';
+import packagingDesignImage from '../../assets/images/Social/PackagingDesign/vero-facewash/packagingdesign.png';
 
-// === INLINE DATA: data.js removed ===
-// NOTE: Keep these images in public/Packaging Design/vero-facewash/
-// If spaces cause issues, rename files to use hyphens instead.
+import test from '../../assets/images/Social/PackagingDesign/vero-facewash/Screenshot 2026-07-27 131444.png';
+
 const PACKAGING_DESIGNS = [
   {
     id: 'vero-facewash',
@@ -13,9 +15,9 @@ const PACKAGING_DESIGNS = [
     sub: 'Skincare Packaging Design',
     description:
       'A fresh and modern packaging design created for Vero Face Wash. The goal was to give the product a clean and youthful look while highlighting its key ingredients, Strawberry Scrub and Nano Arbutin. The design helps customers quickly understand the product and its skincare benefits.',
-    imageUrl: '../../../assets/images/Social/Packaging Design/vero-facewash/packaging design.png',
-    beforeImage: '../../../assets/images/Social/Packaging Design/vero-facewash/Vero_Face_Wash_Dieline_HD.png',
-    afterImage: '../../../assets/images/Social/Packaging Design/vero-facewash/image 2.png',
+    imageUrl: packagingDesignImage,
+    beforeImage: Vero_Face_Wash_Dieline_HD,
+    afterImage: image_2,
     synopsis:
       'This packaging was designed to reflect the product’s cleansing and skincare benefits. The visual style focuses on freshness, clarity, and a natural feel, helping the product stand out while creating a strong connection with its target audience.',
   },
@@ -25,9 +27,9 @@ const PACKAGING_DESIGNS = [
     sub: 'Category / Subtitle',
     description:
       'Description for your second packaging design project. Add details about materials, finish, and target market here.',
- imageUrl: '../../../assets/images/Social/Packaging Design/vero-facewash/packaging design.png',
-    beforeImage: '../../../assets/images/Social/Packaging Design/vero-facewash/Vero_Face_Wash_Dieline_HD.png',
-    afterImage: '../../../assets/images/Social/Packaging Design/vero-facewash/image 2.png',
+    imageUrl: packagingDesignImage,
+    beforeImage: Vero_Face_Wash_Dieline_HD,
+    afterImage: test,
     synopsis:
       'Before and after transformation summary for product two. Describe the design process and final output.',
   },
@@ -38,9 +40,9 @@ const PACKAGING_DESIGNS = [
     sub: 'Category / Subtitle',
     description:
       'Description for your third packaging design project. Add details about materials, finish, and target market here.',
-     imageUrl: '../../../assets/images/Social/Packaging Design/vero-facewash/packaging design.png',
-    beforeImage: '../../../assets/images/Social/Packaging Design/vero-facewash/Vero_Face_Wash_Dieline_HD.png',
-    afterImage: '../../../assets/images/Social/Packaging Design/vero-facewash/image 2.png',
+    imageUrl: packagingDesignImage,
+    beforeImage: Vero_Face_Wash_Dieline_HD,
+    afterImage: image_2,
     synopsis:
       'Before and after transformation summary for product three. Describe the design process and final output.',
   },
@@ -81,7 +83,7 @@ export default function PackagingPortfolio() {
               </div>
 
               {/* Mockup Image */}
-              <div 
+              <div
                 className="img-zoom-wrapper aspect-[4/5] bg-white/10 overflow-hidden relative rounded-t-[24px] cursor-pointer"
                 onClick={() => setActiveCard(pack.id)}
               >
@@ -137,7 +139,7 @@ export default function PackagingPortfolio() {
             <h3 className="font-serif text-xl md:text-2xl font-semibold mb-3 leading-tight text-white">
               From luxury cartons and rigid boxes to custom die-cut packaging, we craft production-ready solutions that elevate your brand on every shelf.
             </h3>
-           
+
           </div>
 
           <div className="md:col-span-4 flex justify-end">
@@ -154,11 +156,11 @@ export default function PackagingPortfolio() {
 
       {/* ========== BEFORE / AFTER POPUP MODAL ========== */}
       {activePack && (
-        <div 
+        <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
           onClick={() => setActiveCard(null)}
         >
-          <div 
+          <div
             className="bg-white rounded-[24px] overflow-hidden max-w-2xl w-full shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >

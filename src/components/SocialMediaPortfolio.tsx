@@ -2,6 +2,26 @@ import { useState, useEffect } from 'react';
 import { SOCIAL_MEDIA_POSTS } from '../data';
 import { ChevronLeft, ChevronRight, Heart, MessageSquare, Bookmark, Home, Search, PlusSquare, User } from 'lucide-react';
 
+import carouselImage1 from '../../assets/images/Social/carousel/food_menu_2.jpeg';
+import carouselImage2 from '../../assets/images/Social/carousel/food_menu_3.jpeg';
+import carouselImage3 from '../../assets/images/Social/carousel/food_menu_4.jpeg';
+import carouselImage4 from '../../assets/images/Social/carousel/food_menu.jpeg';
+
+import workImage1 from '../../assets/images/Social/carouselImages/office-5.png';
+import workImage2 from '../../assets/images/Social/carouselImages/office-6.png';
+import workImage3 from '../../assets/images/Social/carouselImages/office-7.png';
+import workImage4 from '../../assets/images/Social/carouselImages/office-8.png';
+
+import instaImage1 from '../../assets/images/Social/instagram/food_menu.jpeg';
+import instaImage2 from '../../assets/images/Social/instagram/food_menu_2.jpeg';
+import instaImage3 from '../../assets/images/Social/instagram/food_menu_3.jpeg';
+import instaImage4 from '../../assets/images/Social/instagram/food_menu_4.jpeg';
+
+import adImage1 from '../../assets/images/Social/Advertisement/office-3.png';
+import adImage2 from '../../assets/images/Social/Advertisement/office-4.jpg';
+import adImage3 from '../../assets/images/Social/Advertisement/office-1.png';
+import adImage4 from '../../assets/images/Social/Advertisement/office-2.jpg';
+
 export default function SocialMediaPortfolio() {
   const [filter, setFilter] = useState<'All' | 'Lifestyle' | 'Advertisement' | 'Carousel'>('All');
 
@@ -10,18 +30,19 @@ export default function SocialMediaPortfolio() {
 
   // iPhone mockup + 4 side images (from carousel folder)
   const carouselImages = [
-    '/assets/images/Social/carousel/food_menu_2.jpeg',
-    '/assets/images/Social/carousel/food_menu_3.jpeg',
-    '/assets/images/Social/carousel/food_menu_4.jpeg',
-    '/assets/images/Social/carousel/food_menu.jpeg',
+    carouselImage1,
+    carouselImage2,
+    carouselImage3,
+    carouselImage4,
   ];
+
 
   // Work showcase images (from carouselImages folder)
   const workImages = [
-    '/assets/images/Social/carouselImages/office-5.png',
-    '/assets/images/Social/carouselImages/office-6.png',
-    '/assets/images/Social/carouselImages/office-7.png',
-    '/assets/images/Social/carouselImages/office-8.png',
+    workImage1,
+    workImage2,
+    workImage3,
+    workImage4,
   ];
 
   useEffect(() => {
@@ -42,28 +63,28 @@ export default function SocialMediaPortfolio() {
     {
       id: 's-life-1',
       platform: 'Lifestyle' as const,
-      imageUrl: '/assets/images/Social/instagram/food_menu.jpeg',
+      imageUrl: instaImage1,
       title: 'Burger Menu Promotional Design',
       description: 'A modern food promotion design created to showcase a special burger offer. The layout uses bold visuals, clear pricing, and eye-catching typography to attract customers and encourage orders.'
     },
     {
       id: 's-life-2',
       platform: 'Lifestyle' as const,
-      imageUrl: '/assets/images/Social/instagram/food_menu_2.jpeg',
+      imageUrl: instaImage2,
       title: 'Cold Coffee Promotional Design',
       description: 'A clean and modern promotional design created for a cold coffee campaign. The layout combines rich coffee visuals, bold typography, and a warm color palette to highlight the product and attract customer attention.'
     },
     {
       id: 's-life-3',
       platform: 'Lifestyle' as const,
-      imageUrl: '/assets/images/Social/instagram/food_menu_3.jpeg',
+      imageUrl: instaImage3,
       title: 'Pizza Promotional Design',
       description: 'A vibrant promotional design created to showcase a delicious pizza offer. The layout features bold typography, appetizing visuals, and a striking color scheme to attract attention and encourage customer orders.'
     },
     {
       id: 's-life-4',
       platform: 'Lifestyle' as const,
-      imageUrl: '/assets/images/Social/instagram/food_menu_4.jpeg',
+      imageUrl: instaImage4,
       title: 'Mango Ice Cream Promotional Design',
       description: 'A bright and refreshing promotional design created to showcase mango ice cream. The design uses vibrant colors, appealing visuals, and clear call-to-action elements to highlight the product and attract customer attention.'
     }
@@ -73,28 +94,28 @@ export default function SocialMediaPortfolio() {
     {
       id: 's-ad-1',
       platform: 'Advertisement' as const,
-      imageUrl: '/assets/images/Social/Advertisement/office-3.png',
+      imageUrl: adImage1,
       title: 'ITR Filing Season Campaign Design',
       description: 'A bold and professional promotional design created for the ITR filing season. The layout highlights important filing dates, service packages, and clear call-to-action elements to help users stay informed and file their returns on time.'
     },
     {
       id: 's-ad-2',
       platform: 'Advertisement' as const,
-      imageUrl: '/assets/images/Social/Advertisement/office-4.jpg',
+      imageUrl: adImage2,
       title: 'ITR-1 Filing Promotional Design',
       description: 'A modern promotional design created to advertise ITR-1 filing services. The design highlights affordability, ease of filing, and expert support through engaging visuals, clear messaging, and a strong call to action.'
     },
     {
       id: 's-ad-3',
       platform: 'Advertisement' as const,
-      imageUrl: '/assets/images/Social/Advertisement/office-1.png',
+      imageUrl: adImage3,
       title: 'Income Tax Return (ITR) Filing Campaign Design',
       description: 'A professional social media design created to promote Income Tax Return filing services. The design uses strong visuals, clear messaging, and deadline-focused elements to encourage timely tax filing and increase customer engagement.'
     },
     {
       id: 's-ad-4',
       platform: 'Advertisement' as const,
-      imageUrl: '/assets/images/Social/Advertisement/office-2.jpg',
+      imageUrl: adImage4,
       title: 'ITR Deadline Awareness Campaign Design',
       description: 'A creative social media design developed to promote timely Income Tax Return filing. The design combines attention-grabbing visuals, deadline reminders, and clear service highlights to encourage users to file their ITR before the due date.'
     }

@@ -2,6 +2,13 @@ import { useState } from 'react';
 import { LogoItem } from '../types';
 import { Maximize2, X, Sparkles, Calendar, UserCheck } from 'lucide-react';
 
+import logo1 from '../../assets/images/logo/images-1.jpg';
+import logo2 from '../../assets/images/logo/images-2.jpg';
+import logo3 from '../../assets/images/logo/images-3.jpg';
+import logo4 from '../../assets/images/logo/images-4.jpg';
+import logo5 from '../../assets/images/logo/images-5.jpg';
+import logo6 from '../../assets/images/logo/images-6.jpg';
+
 const LOGO_ITEMS: LogoItem[] = [
   {
     id: 1,
@@ -9,7 +16,7 @@ const LOGO_ITEMS: LogoItem[] = [
     client: "Client 1",
     year: "2024",
     concept: "Minimalist geometric mark representing forward motion and innovation.",
-    imageUrl: "assets/images/logo/images-1.jpg"
+    imageUrl: logo1
   },
   {
     id: 2,
@@ -17,7 +24,7 @@ const LOGO_ITEMS: LogoItem[] = [
     client: "Client 2",
     year: "2024",
     concept: "Clean typographic lockup with subtle architectural undertones.",
-    imageUrl: "assets/images/logo/images-2.jpg"
+    imageUrl: logo2
   },
   {
     id: 3,
@@ -25,7 +32,7 @@ const LOGO_ITEMS: LogoItem[] = [
     client: "Client 3",
     year: "2024",
     concept: "Abstract monogram built on golden ratio proportions.",
-    imageUrl: "assets/images/logo/images-3.jpg"
+    imageUrl: logo3
   },
   {
     id: 4,
@@ -33,7 +40,7 @@ const LOGO_ITEMS: LogoItem[] = [
     client: "Client 4",
     year: "2024",
     concept: "Symbolic mark drawing from organic natural forms and symmetry.",
-    imageUrl: "assets/images/logo/images-4.jpg"
+    imageUrl: logo4
   },
   {
     id: 5,
@@ -41,7 +48,7 @@ const LOGO_ITEMS: LogoItem[] = [
     client: "Client 5",
     year: "2024",
     concept: "Bold wordmark with refined letter spacing and custom ligatures.",
-    imageUrl: "assets/images/logo/images-5.jpg"
+    imageUrl: logo5
   },
   {
     id: 6,
@@ -49,7 +56,7 @@ const LOGO_ITEMS: LogoItem[] = [
     client: "Client 6",
     year: "2024",
     concept: "Dynamic emblem combining negative space and structural balance.",
-    imageUrl: "assets/images/logo/images-6.jpg"
+    imageUrl: logo6
   }
 ];
 

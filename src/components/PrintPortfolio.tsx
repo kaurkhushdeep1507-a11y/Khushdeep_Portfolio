@@ -1,21 +1,19 @@
-import { useState } from 'react';
+import { useState, ReactNode } from 'react';
 import { MapPin, Eye, FileText, X, ZoomIn } from 'lucide-react';
 
-// Card images — Print Media folder
-const print1 = new URL('../../assets/images/Print Media/Print_Media.jpeg', import.meta.url).href;
-const print2 = new URL('../../assets/images/Print Media/Print_Media-2.png', import.meta.url).href;
-const print3 = new URL('../../assets/images/Print Media/Print_Media-3.png', import.meta.url).href;
-const print4 = new URL('../../assets/images/Print Media/Print_Media-4.png', import.meta.url).href;
-const print5 = new URL('../../assets/images/Print Media/Print_Media-5.jpeg', import.meta.url).href;
-const print6 = new URL('../../assets/images/Print Media/Print_Media-6.jpeg', import.meta.url).href;
+import print1 from '../../assets/images/PrintMedia/Print_Media.jpeg';
+import print2 from '../../assets/images/PrintMedia/Print_Media-2.png';
+import print3 from '../../assets/images/PrintMedia/Print_Media-3.png';
+import print4 from '../../assets/images/PrintMedia/Print_Media-4.png';
+import print5 from '../../assets/images/PrintMedia/Print_Media-5.png';
+import print6 from '../../assets/images/PrintMedia/Print_Media-6.png';
 
-// Lightbox detail images — Print Media/back folder
-const print1Back = new URL('../../assets/images/Print Media/back/Print_Media.jpeg', import.meta.url).href;
-const print2Back = new URL('../../assets/images/Print Media/back/Print_Media-2.png', import.meta.url).href;
-const print3Back = new URL('../../assets/images/Print Media/back/Print_Media-3.png', import.meta.url).href;
-const print4Back = new URL('../../assets/images/Print Media/back/Print_Media-4.png', import.meta.url).href;
-const print5Back = new URL('../../assets/images/Print Media/back/Print_Media-5.jpeg', import.meta.url).href;
-const print6Back = new URL('../../assets/images/Print Media/back/Print_Media-6.jpeg', import.meta.url).href;
+import print1Back from '../../assets/images/PrintMedia/back/Print_Media.jpeg';
+import print2Back from '../../assets/images/PrintMedia/back/Print_Media-2.png';
+import print3Back from '../../assets/images/PrintMedia/back/Print_Media-3.png';
+import print4Back from '../../assets/images/PrintMedia/back/Print_Media-4.png';
+import print5Back from '../../assets/images/PrintMedia/back/print5Back.png';
+import print6Back from '../../assets/images/PrintMedia/back/print6Back.png';
 
 const PRINT_MEDIA_ITEMS = [
   {
@@ -58,19 +56,19 @@ const PRINT_MEDIA_ITEMS = [
     id: 5,
     imageUrl: print5,
     detailImageUrl: print5Back,
-    title: "Neon Nights Festival Campaign",
-    type: "Poster",
-    description: "Vibrant neon-inspired poster series for an electronic music festival. Features fluorescent ink overlays and holographic foil accents that shift under light.",
-    specs: "Neon Spot Colors / 250gsm Gloss / Foil Stamped"
+    title: "Tasty Hot & Spicy Noodles Poster",
+    type: "Poster Design",
+    description: "A bold and appetizing food promotional poster designed to instantly grab attention with vibrant red tones, dynamic typography, and premium food visuals. The layout highlights the delicious noodles with an eye-catching composition, clear pricing, and a strong call-to-action. Crafted to create cravings while maintaining a modern and professional branding style, making it ideal for restaurants, cafés, food stalls, online food delivery promotions, and social media marketing campaigns.",
+    specs: "Adobe Photoshop / Print Ready / RGB & CMYK / High Resolution"
   },
   {
     id: 6,
     imageUrl: print6,
     detailImageUrl: print6Back,
-    title: "Minimalist Brand Identity System",
-    type: "Standee",
-    description: "Ultra-clean corporate identity package with debossed logos on premium cotton paper. Includes letterhead, envelope, and business card designs with consistent spacing ratios.",
-    specs: "Crane's Cotton / Deboss / Letterpress / 600gsm"
+    title: "Luxury Car Rental Standee",
+    type: "Standee Design",
+    description: "A premium promotional standee designed to advertise luxury car rental services with a bold and modern visual identity. The composition combines striking typography, high-end automotive imagery, and a vibrant black-and-yellow color palette to create maximum impact. Featuring a compelling discount offer, strong call-to-action, and clean information hierarchy, the design is optimized for showrooms, exhibitions, rental agencies, and outdoor promotional campaigns, ensuring excellent visibility and brand recall.",
+    specs: "Adobe Photoshop / Print Ready / CMYK / 300 DPI"
   }
 ];
 
