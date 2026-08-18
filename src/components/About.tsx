@@ -19,7 +19,7 @@ export default function About() {
         <div className="mb-16">
           <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// DESIGNER BIOGRAPHY</span>
           <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight">
-            Creative discipline, geometric balance.
+            Creative visuals. Strong brands. Meaningful design.
           </h2>
         </div>
 
@@ -34,13 +34,13 @@ export default function About() {
                   About Khushdeep Kaur
                 </h3>
                 <p className="text-stone-900 dark:text-stone-100 font-normal text-base leading-relaxed mb-4">
-                  Hi, I&apos;m Khushdeep Kaur, a Graphic Designer passionate about transforming ideas into impactful visual experiences. With 1.5+ years of professional experience, I specialize in branding, social media creatives, advertising designs, and digital content that help businesses communicate effectively and stand out in competitive markets.
+                 Hi, I’m Khushdeep Kaur, a Graphic Designer with 1.5+ years of professional experience in creating engaging and purposeful visual content. I specialize in branding, social media creatives, advertising designs, digital campaigns, and print materials.
                 </p>
                 <p className="text-stone-800 dark:text-stone-200 font-normal text-sm leading-relaxed mb-4">
-                  Currently working with MyITR Online Global Services Pvt. Ltd., I create engaging marketing materials, festival campaigns, personalized graphics, and brand-focused digital assets. My design process combines creativity, typography, color psychology, and attention to detail to deliver visually compelling and result-driven solutions.
+                 Currently working with MyITR Online Global Services Pvt. Ltd., I create marketing creatives, festival campaigns, personalized graphics, promotional materials, and brand-focused digital assets. My approach combines strong visual composition, typography, color, creativity, and attention to detail to create designs that communicate clearly and leave a lasting impression.
                 </p>
                 <p className="text-stone-850 dark:text-stone-200 font-normal text-sm leading-relaxed mb-6">
-                  I believe great design is more than aesthetics—it&apos;s about creating meaningful connections between brands and people through clear communication and memorable visual storytelling.
+                 I believe good design is not just about looking beautiful—it is about turning ideas into visuals that connect with people and support a brand’s goals.
                 </p>
               </div>
 
@@ -49,20 +49,20 @@ export default function About() {
                 <div className="glass-card p-6 border-l-4 border-stone-500 rounded-r-[24px] rounded-l-none bg-white/20 backdrop-blur-md shadow-sm">
                   <div className="flex items-center gap-2 mb-2 text-stone-700 dark:text-stone-300">
                     <Briefcase size={16} />
-                    <span className="text-[10px] font-mono tracking-widest uppercase font-bold">// TENURE</span>
+                    <span className="text-[10px] font-mono tracking-widest uppercase font-bold">// EXPERIENCE</span>
                   </div>
                   <h3 className="text-3xl font-serif font-bold text-stone-900 dark:text-white">1.5+ Years</h3>
-                  <p className="text-xs text-stone-800 dark:text-stone-200 mt-1 font-medium">Consistent studio & freelance service</p>
+                  {/* <p className="text-xs text-stone-800 dark:text-stone-200 mt-1 font-medium">Consistent studio & freelance service</p> */}
                 </div>
 
-                <div className="glass-card p-6 border-l-4 border-stone-500 rounded-r-[24px] rounded-l-none bg-white/20 backdrop-blur-md shadow-sm">
+                {/* <div className="glass-card p-6 border-l-4 border-stone-500 rounded-r-[24px] rounded-l-none bg-white/20 backdrop-blur-md shadow-sm">
                   <div className="flex items-center gap-2 mb-2 text-stone-700 dark:text-stone-300">
                     <Award size={16} />
                     <span className="text-[10px] font-mono tracking-widest uppercase font-bold">// STANDARDS</span>
                   </div>
                   <h3 className="text-3xl font-serif font-bold text-stone-900 dark:text-white">100%</h3>
                   <p className="text-xs text-stone-800 dark:text-stone-200 mt-1 font-medium">Behance-level production quality</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

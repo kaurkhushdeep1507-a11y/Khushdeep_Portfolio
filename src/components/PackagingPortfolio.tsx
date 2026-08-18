@@ -6,6 +6,10 @@ import Vero_Face_Wash_Dieline_HD from '../../assets/images/Social/PackagingDesig
 import image_2 from '../../assets/images/Social/PackagingDesign/vero-facewash/image_2.png';
 import packagingDesignImage from '../../assets/images/Social/PackagingDesign/vero-facewash/packagingdesign.png';
 
+import cashews from '../../assets/images/Social/PackagingDesign/cashews/cashews.png';
+import cashewBefore from '../../assets/images/Social/PackagingDesign/cashews/cashews_before.png';
+import cashewAfter from '../../assets/images/Social/PackagingDesign/cashews/cashews_after.png';
+
 import test from '../../assets/images/Social/PackagingDesign/vero-facewash/Screenshot 2026-07-27 131444.png';
 
 const PACKAGING_DESIGNS = [
@@ -22,18 +26,18 @@ const PACKAGING_DESIGNS = [
       'This packaging was designed to reflect the product’s cleansing and skincare benefits. The visual style focuses on freshness, clarity, and a natural feel, helping the product stand out while creating a strong connection with its target audience.',
   },
   {
-    id: 'product-two',
-    title: 'Product Two Title',
-    sub: 'Category / Subtitle',
+    id: 'dry-fruit',
+    title: 'Nut Crush Cashews',
+    sub: 'Dry Fruit Packaging Design',
     description:
-      'Description for your second packaging design project. Add details about materials, finish, and target market here.',
-    imageUrl: packagingDesignImage,
-    beforeImage: Vero_Face_Wash_Dieline_HD,
-    afterImage: test,
+      'A premium packaging design created for Nuts Crush W320 Cashews. The design combines rich green and gold tones with a clean, natural layout to reflect quality and freshness. It highlights the product’s premium grade while giving the pack a refined and trustworthy shelf presence.',
+    imageUrl: cashews,
+    beforeImage: cashewBefore,
+    afterImage: cashewAfter,
     synopsis:
-      'Before and after transformation summary for product two. Describe the design process and final output.',
+      'This premium cashew packaging is designed to highlight the product’s rich quality and natural goodness. The elegant green-and-gold visual style reflects freshness, purity, and a luxurious feel, helping the product stand out while creating a strong connection with health-conscious and premium food consumers.',
   },
-  // === ITEM 3: Replace with your 3rd folder details ===
+
   {
     id: 'product-three',
     title: 'Product Three Title',
@@ -134,10 +138,13 @@ export default function PackagingPortfolio() {
         <div className="mt-16 bg-black/85 backdrop-blur-xl p-8 md:p-12 text-white text-left grid grid-cols-1 md:grid-cols-12 gap-8 items-center border border-white/15 rounded-[24px] shadow-lg">
           <div className="md:col-span-8">
             <span className="text-amber-400 text-[9px] font-mono tracking-widest uppercase block mb-1">
-              // PRODUCTION CAPABILITIES
+            // LET'S WORK TOGETHER
             </span>
+            <h3 className="font-serif text-2xl md:text-3xl font-semibold leading-snug">
+              Have a packaging idea in mind?
+            </h3>
             <h3 className="font-serif text-xl md:text-2xl font-semibold mb-3 leading-tight text-white">
-              From luxury cartons and rigid boxes to custom die-cut packaging, we craft production-ready solutions that elevate your brand on every shelf.
+              I create clean, production-ready packaging designs that combine strong branding with practical functionality. Let's turn your concept into packaging that looks great on every shelf.
             </h3>
 
           </div>
