@@ -64,13 +64,13 @@ export default function PackagingPortfolio() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="text-left">
-            <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// PHYSICAL MEDIA & BOXES</span>
+            <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// PACKAGING DESIGN</span>
             <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight">
-              Packaging Design Showcase
+              Packaging Made to Stand Out
             </h2>
           </div>
           <p className=" text-xs md:text-sm font-light max-w-sm md:text-right">
-            Custom structural dies, tactile labels, and heavy materials specs. High impact branding tailored for physical retail shelves.
+           Thoughtful packaging designs that bring together strong visuals, clear communication, and a distinct brand personality.
           </p>
         </div>
 
@@ -120,13 +120,13 @@ export default function PackagingPortfolio() {
                 {/* Micro tech checklist */}
                 <div className="border-t border-black/5 pt-4 flex gap-4 text-stone-600 text-[10px] font-semibold uppercase tracking-wider justify-between">
                   <span className="flex items-center gap-1">
-                    <Layers size={12} /> Premium Packaging Design
+                    <Layers size={12} /> Brand-Focused Design
                   </span>
                   <span className="flex items-center gap-1">
-                    <PackageCheck size={12} /> Custom Die-Cut Solutions
+                    <PackageCheck size={12} /> Thoughtful Packaging
                   </span>
                   <span className="flex items-center gap-1">
-                    <Shield size={12} /> Print-Ready Production Files
+                    <Shield size={12} /> Ready for Production
                   </span>
                 </div>
               </div>
@@ -138,13 +138,13 @@ export default function PackagingPortfolio() {
         <div className="mt-16 bg-black/85 backdrop-blur-xl p-8 md:p-12 text-white text-left grid grid-cols-1 md:grid-cols-12 gap-8 items-center border border-white/15 rounded-[24px] shadow-lg">
           <div className="md:col-span-8">
             <span className="text-amber-400 text-[9px] font-mono tracking-widest uppercase block mb-1">
-            // LET'S WORK TOGETHER
+            // Let's Work Together
             </span>
             <h3 className="font-serif text-2xl md:text-3xl font-semibold leading-snug">
               Have a packaging idea in mind?
             </h3>
             <h3 className="font-serif text-xl md:text-2xl font-semibold mb-3 leading-tight text-white">
-              I create clean, production-ready packaging designs that combine strong branding with practical functionality. Let's turn your concept into packaging that looks great on every shelf.
+             I love turning simple ideas into packaging that feels thoughtful, memorable, and true to the brand. From the first concept to the final design, I focus on creating visuals that look beautiful, communicate clearly, and work in the real world.
             </h3>
 
           </div>
@@ -154,7 +154,7 @@ export default function PackagingPortfolio() {
               href="#contact"
               className="px-6 py-4 border border-white/30 text-stone-200 hover:text-white hover:border-white hover:bg-white/5 transition-all text-xs font-semibold tracking-widest uppercase text-center w-full md:w-auto rounded-full"
             >
-              Get Product Consultation
+              Get in Touch
             </a>
           </div>
         </div>

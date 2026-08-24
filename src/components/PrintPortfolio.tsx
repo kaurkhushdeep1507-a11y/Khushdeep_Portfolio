@@ -93,7 +93,7 @@ export default function PrintPortfolio() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="text-left">
             <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight">
-              Print Media & Billboards
+                Print Designs Made to Be Seen
             </h2>
           </div>
         </div>
@@ -154,19 +154,18 @@ export default function PrintPortfolio() {
             </span>
             <div>
               <p className="text-[10px] font-mono text-stone-500 uppercase tracking-widest leading-none font-semibold">
-                // Campaign Enclosure
+              // PRINT & POSTER DESIGN
+
               </p>
               <h4 className="text-sm font-bold text-black uppercase tracking-wider mt-1.5">
-                URBAN BILLBOARD PLACEMENT SPECIFICATIONS
+                   Print That Gets Noticed
               </h4>
               <p className="text-stone-700 text-xs font-light leading-relaxed mt-0.5">
-                Configured with dynamic grid offsets to guarantee strong legibility from extreme driving angles and 100+ meters distance.
+                  From posters and flyers to brochures and outdoor advertising, I create clear, engaging designs that bring a brand's message to life in print.
               </p>
             </div>
           </div>
-          <p className="text-[10px] font-mono text-stone-500 uppercase tracking-widest font-bold">
-            BEHANCE APPRECIATED · 2026_EDITION
-          </p>
+
         </div>
 
       </div>

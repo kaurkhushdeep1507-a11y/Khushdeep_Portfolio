@@ -151,7 +151,7 @@ export default function SocialMediaPortfolio() {
           <div className="text-left">
             <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// SOCIAL MEDIA DESIGN</span>
             <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight">
-              Social Campaigns & Work
+              Social Designs That Get Noticed
             </h2>
           </div>
 

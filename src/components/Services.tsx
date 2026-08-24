@@ -16,15 +16,19 @@ export default function Services() {
   return (
     <section id="services" className="py-24 bg-app-bg relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        
+
         {/* Section Header */}
-        <div className="mb-20 text-center max-w-2xl mx-auto">
-          <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// PROFESSIONAL EXPERTISE</span>
-          <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight mb-4">
-            Services & Studio Output
+        <div className="mb-20 text-center max-w-3xl mx-auto">
+          <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-3">
+        // WHAT I DO
+          </span>
+
+          <h2 className="font-serif text-4xl md:text-5xl text-black font-semibold tracking-tight mb-5">
+            Design That Helps Brands Stand Out
           </h2>
-          <p className="text-stone-500 text-sm font-light leading-relaxed">
-            From symmetrical vector marks to complete multi-channel brand rollouts, I deliver pristine high-end creative solutions tailored to elevate your market standing.
+
+          <p className="text-stone-500 text-sm md:text-base font-light leading-relaxed max-w-2xl mx-auto">
+            I create thoughtful visual identities and marketing designs that help brands look confident, feel consistent, and connect with their audience.
           </p>
         </div>
 
@@ -59,7 +63,7 @@ export default function Services() {
 
               {/* Skills breakdown */}
               <div className="border-t border-black/5 pt-4 text-left">
-                <span className="text-[9px] font-mono uppercase text-stone-500 tracking-wider block mb-2 font-semibold">Capabilities Included:</span>
+                <span className="text-[9px] font-mono uppercase text-stone-500 tracking-wider block mb-2 font-semibold">What I Can Help With</span>
                 <div className="flex flex-wrap gap-1.5">
                   {serv.skillsUsed.map((skill) => (
                     <span

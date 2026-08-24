@@ -37,17 +37,17 @@ export default function Hero() {
         <div className="lg:col-span-4 flex flex-col gap-6 order-2 lg:order-1">
           <div className="flex items-center gap-2 text-stone-900 dark:text-stone-100 uppercase text-[10px] font-bold tracking-widest">
             <span className="w-1.5 h-1.5 bg-black dark:bg-stone-100 rounded-full animate-pulse"></span>
-            BASED IN INDIA • DESIGNING FOR MODERN BRANDS
+            BASED IN INDIA • AVAILABLE FOR DESIGN PROJECTS
           </div>
           
           <h2 className="text-black dark:text-white font-sans text-[12px] uppercase tracking-[0.16em] leading-relaxed font-extrabold">
             GRAPHIC DESIGNER <br />
-            VISUAL IDENTITY DESIGNER <br />
-            CREATIVE BRAND STORYTELLER
+            BRAND & VISUAL IDENTITY <br />
+            SOCIAL & PACKAGING DESIGN
           </h2>
 
           <p className="text-stone-800 dark:text-stone-200 text-sm md:text-[14px] font-normal leading-relaxed max-w-sm">
-            Transforming ideas into compelling visual experiences through branding, social media design, advertising creatives, and print solutions. Focused on creating timeless, elegant, and impactful designs that leave a lasting impression.
+            I create thoughtful visual designs that help brands look confident, consistent, and memorable — from logos and brand identities to social media, packaging, and print.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
@@ -71,8 +71,8 @@ export default function Hero() {
         <div className="lg:col-span-8 flex flex-col justify-center order-1 lg:order-2">
           {/* Subtle Year Stamp */}
           <div className="flex justify-between items-end border-b border-black/5 pb-4 mb-4">
-            <span className="font-mono text-[10px] text-stone-500">// INDEX: 2026_EDITION</span>
-            <span className="font-mono text-[10px] text-stone-500">BEHANCE VERIFIED ARTIST</span>
+            <span className="font-mono text-[10px] text-stone-500">// SELECTED WORKS</span>
+            <span className="font-mono text-[10px] text-stone-500"> GRAPHIC DESIGN • BRANDING</span>
           </div>
 
           <div className="pr-4">
@@ -93,7 +93,7 @@ export default function Hero() {
           {/* Large Portfolio Subtext Banner */}
           <div className="mt-8 relative overflow-hidden glass-card border-l-4 border-black dark:border-white p-5 shadow-sm backdrop-blur-md rounded-r-[24px] rounded-l-none">
             <p className="text-[10px] sm:text-xs uppercase tracking-[0.18em] font-mono text-stone-900 dark:text-stone-100 leading-relaxed font-bold">
-              Creative thinking. Strategic design. Meaningful impact.
+              Thoughtful design for brands with something to say.
             </p>
           </div>
         </div>

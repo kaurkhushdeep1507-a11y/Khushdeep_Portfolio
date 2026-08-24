@@ -7,12 +7,12 @@ export default function Contact() {
 
         {/* Section Header */}
         <div className="mb-12 text-center">
-          <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// COMMISSIONS & INQUIRIES</span>
+          <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// LET'S WORK TOGETHER</span>
           <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight">
-            Start a Design Session
+            Let's Create Something Great
           </h2>
           <p className="text-stone-600 text-sm font-light leading-relaxed mt-4 max-w-lg mx-auto">
-            Let&apos;s build something timeless. Whether you need a high-end logomark, custom physical packaging, or brand guidelines, get in touch directly.
+          Have a project in mind? I'd love to hear about it. Whether it's a new brand, social campaign, packaging, or print design, feel free to get in touch.
           </p>
         </div>
 

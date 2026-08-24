@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 export default function About() {
   const skills = [
-    { name: 'Adobe Photoshop', icon: 'Ps', level: '95%', desc: 'Advanced photo editing, retouching & social creatives' },
+    { name: 'Adobe Photoshop', icon: 'Ps', level: '95%', desc: 'Working Knowledge of photo editing, retouching & social creatives' },
     { name: 'Adobe Illustrator', icon: 'Ai', level: '98%', desc: 'Logo design, vector illustration & branding systems' },
     { name: 'Adobe InDesign', icon: 'Id', level: '92%', desc: 'Print layouts, brochures & marketing materials' },
     { name: 'CorelDRAW', icon: 'Cd', level: '90%', desc: 'Advertising, packaging & print production' },
@@ -17,9 +17,9 @@ export default function About() {
         
         {/* Section Heading */}
         <div className="mb-16">
-          <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// DESIGNER BIOGRAPHY</span>
+          <span className="text-stone-500 text-xs font-mono uppercase tracking-widest block mb-2">// A LITTLE ABOUT ME</span>
           <h2 className="font-serif text-3xl md:text-5xl text-black font-semibold tracking-tight">
-            Creative visuals. Strong brands. Meaningful design.
+            Designing With Purpose, Curiosity & Character.
           </h2>
         </div>
 
@@ -31,7 +31,7 @@ export default function About() {
               <div>
                 <h3 className="text-xl uppercase font-bold tracking-wider mb-4 border-b border-black/5 pb-3 flex items-center gap-2 text-stone-900">
                   <Sparkles size={16} className="text-stone-600" />
-                  About Khushdeep Kaur
+                  About Me
                 </h3>
                 <p className="text-stone-900 dark:text-stone-100 font-normal text-base leading-relaxed mb-4">
                  Hi, I’m Khushdeep Kaur, a Graphic Designer with 1.5+ years of professional experience in creating engaging and purposeful visual content. I specialize in branding, social media creatives, advertising designs, digital campaigns, and print materials.
@@ -73,7 +73,7 @@ export default function About() {
               <div>
                 <h4 className="text-xl uppercase font-bold tracking-wider mb-4 border-b border-black/5 pb-3 flex items-center gap-2 text-stone-900">
                   <span className="w-1.5 h-1.5 rounded-full bg-stone-600"></span>
-                  Creative Tools & Technical Expertise
+                  Tools I Work With
                 </h4>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
