@@ -1,5 +1,6 @@
 import { MouseEvent } from 'react';
 import { ArrowDown, CornerDownRight } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export default function Hero() {
   const handleScrollTo = (e: MouseEvent<HTMLButtonElement | HTMLAnchorElement>, id: string) => {
@@ -18,6 +19,24 @@ export default function Hero() {
       });
     }
   };
+
+  const [typedText, setTypedText] = useState('');
+  const fullText = 'KHUSHDEEP KAUR';
+
+  useEffect(() => {
+    let index = 0;
+
+    const interval = setInterval(() => {
+      setTypedText(fullText.slice(0, index + 1));
+      index++;
+
+      if (index === fullText.length) {
+        clearInterval(interval);
+      }
+    }, 120);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section
@@ -39,7 +58,7 @@ export default function Hero() {
             <span className="w-1.5 h-1.5 bg-black dark:bg-stone-100 rounded-full animate-pulse"></span>
             BASED IN INDIA • AVAILABLE FOR DESIGN PROJECTS
           </div>
-          
+
           <h2 className="text-black dark:text-white font-sans text-[12px] uppercase tracking-[0.16em] leading-relaxed font-extrabold">
             GRAPHIC DESIGNER <br />
             BRAND & VISUAL IDENTITY <br />
@@ -55,7 +74,7 @@ export default function Hero() {
               onClick={(e) => handleScrollTo(e, '#logo-portfolio')}
               className="bg-black text-white hover:bg-stone-800 transition-colors uppercase text-xs font-semibold tracking-widest py-4 px-8 rounded-full flex items-center gap-2 group cursor-pointer shadow-md"
             >
-              View Work 
+              View Work
               <CornerDownRight size={14} className="group-hover:translate-x-1 decoration-3 transition-transform" />
             </button>
             <button
@@ -75,20 +94,27 @@ export default function Hero() {
             <span className="font-mono text-[10px] text-stone-500"> GRAPHIC DESIGN • BRANDING</span>
           </div>
 
-          <div className="pr-4">
+          {/* <div className="pr-4">
             <h1 className="font-serif text-[10vw] md:text-[8vw] lg:text-[clamp(4rem,6.5vw,5.5rem)] xl:text-[6rem] leading-none text-black dark:text-white tracking-tight select-none font-bold">
               KHUSHDEEP
             </h1>
-          </div>
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mt-3 pr-4">
-            <h1 className="font-serif text-[10vw] md:text-[8vw] lg:text-[clamp(4rem,6.5vw,5.5rem)] xl:text-[6rem] leading-none text-black dark:text-white tracking-tight font-bold translate-x-1">
-              KAUR
+          </div> */}
+
+          <div className="pr-4">
+            <h1
+              className="font-serif text-[10vw] md:text-[8vw] lg:text-[clamp(4rem,6.5vw,5.5rem)] xl:text-[6rem] leading-none text-black dark:text-white tracking-tight select-none font-bold"
+              aria-label={fullText}
+            >
+              {typedText}
             </h1>
-            <span className="font-serif text-[5vw] md:text-[2.8vw] lg:text-[2vw] text-stone-600 dark:text-stone-300 italic font-medium pr-4 select-none leading-none pb-2">
+          </div>
+
+          <div className="flex justify-end mt-4 pr-4">
+            <span className="font-serif text-[5vw] md:text-[2.8vw] lg:text-[2vw] text-stone-600 dark:text-stone-300 italic font-medium select-none leading-none">
               Graphic Designer
             </span>
           </div>
+
 
           {/* Large Portfolio Subtext Banner */}
           <div className="mt-8 relative overflow-hidden glass-card border-l-4 border-black dark:border-white p-5 shadow-sm backdrop-blur-md rounded-r-[24px] rounded-l-none">

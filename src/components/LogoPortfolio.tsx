@@ -10,7 +10,7 @@ import BunnyBakers from '../../assets/images/logo/BunnyBakers.png';
 import BunnyBakersDetails from '../../assets/images/logo/back/BunnyBakersIN.png';
 import Wynora from '../../assets/images/logo/wynora.jpeg';
 import WynoraDetail from '../../assets/images/logo/back/WynoraIN.png';
-import OrviaPerfumes from '../../assets/images/logo/OrviaPerfumes.jpeg';
+import OrviaPerfumes from '../../assets/images/logo/OrviaPerfumes.png';
 import OrviaPerfumesDetail from '../../assets/images/logo/back/OrviaPerfumesIN.png';
 import AromaStudio from '../../assets/images/logo/AromaStudio.png';
 import AromaStudioDetail from '../../assets/images/logo/back/AromaStudioIN.png';

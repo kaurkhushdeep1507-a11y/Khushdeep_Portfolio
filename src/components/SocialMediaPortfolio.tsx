@@ -18,9 +18,9 @@ import instaImage3 from '../../assets/images/Social/instagram/food_menu_3.jpeg';
 import instaImage4 from '../../assets/images/Social/instagram/food_menu_4.jpeg';
 
 import adImage1 from '../../assets/images/Social/Advertisement/office-3.png';
-import adImage2 from '../../assets/images/Social/Advertisement/office-4.jpg';
+import adImage2 from '../../assets/images/Social/Advertisement/office-4.png';
 import adImage3 from '../../assets/images/Social/Advertisement/office-1.png';
-import adImage4 from '../../assets/images/Social/Advertisement/office-2.jpg';
+import adImage4 from '../../assets/images/Social/Advertisement/office-2.png';
 
 export default function SocialMediaPortfolio() {
   const [filter, setFilter] = useState<'All' | 'Lifestyle' | 'Advertisement' | 'Carousel'>('All');
@@ -102,22 +102,22 @@ export default function SocialMediaPortfolio() {
       id: 's-ad-2',
       platform: 'Advertisement' as const,
       imageUrl: adImage2,
-      title: 'ITR-1 Filing Promotional Design',
-      description: 'A modern promotional design created to advertise ITR-1 filing services. The design highlights affordability, ease of filing, and expert support through engaging visuals, clear messaging, and a strong call to action.'
+      title: 'ITR-1 & ITR-4 Filing Update',
+      description: 'A bold tax awareness design created to highlight the latest ITR-1 and ITR-4 online filing update for AY 2026-27. The strong typography, bright visuals, and clear hierarchy make the important information easy to notice and understand.'
     },
     {
       id: 's-ad-3',
       platform: 'Advertisement' as const,
       imageUrl: adImage3,
-      title: 'Income Tax Return (ITR) Filing Campaign Design',
-      description: 'A professional social media design created to promote Income Tax Return filing services. The design uses strong visuals, clear messaging, and deadline-focused elements to encourage timely tax filing and increase customer engagement.'
+      title: 'ITR Filing Deadline Campaign',
+      description: 'A high-impact tax awareness design created to highlight the final hours of the ITR-1 and ITR-2 filing deadline. The rain and umbrella concept adds a strong visual message of protection, while bold typography and a clear call to action create urgency and encourage taxpayers to file on time.'
     },
     {
       id: 's-ad-4',
       platform: 'Advertisement' as const,
       imageUrl: adImage4,
-      title: 'ITR Deadline Awareness Campaign Design',
-      description: 'A creative social media design developed to promote timely Income Tax Return filing. The design combines attention-grabbing visuals, deadline reminders, and clear service highlights to encourage users to file their ITR before the due date.'
+      title: 'ITR-3 & ITR-4 Filing Reminder',
+      description: 'A bold and engaging tax awareness design created to remind taxpayers not to leave their ITR filing until the last minute. The strong blue and yellow visual style, clock and calculator elements, and clear deadline message create a sense of urgency while keeping the information easy to understand.'
     }
   ];
 
@@ -394,7 +394,7 @@ export default function SocialMediaPortfolio() {
               </div>
 
               <h3 className="font-serif text-lg font-bold text-stone-100">
-                Work Designs
+                Office Work Designs
               </h3>
 
               <div className="relative aspect-square rounded-[20px] overflow-hidden border border-white/10 bg-stone-900">

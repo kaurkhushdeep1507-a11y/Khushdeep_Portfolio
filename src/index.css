@@ -354,3 +354,22 @@
 
 
 
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 4px;
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  animation: typewriterBlink 0.8s steps(1) infinite;
+}
+
+@keyframes typewriterBlink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
