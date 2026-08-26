@@ -154,12 +154,6 @@ export default function BrandingPortfolio() {
             </div>
 
             {/* Spec footer quote */}
-            <div className="flex justify-between items-center text-stone-500 font-mono text-[9px] py-2 border-t border-black/5">
-              <span>PROJECT CODE: KSD_BND_0{activeProjectIndex + 1}</span>
-              <span className="flex items-center gap-1">
-                <Eye size={10} /> BEHANCE FEATURED WORK
-              </span>
-            </div>
           </div>
 
         </div>

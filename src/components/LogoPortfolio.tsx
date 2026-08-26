@@ -142,15 +142,8 @@ export default function LogoPortfolio() {
 
         {/* Premium Popup Preview Modal */}
         {selectedLogo && (
-          <div
-            id="logo-popup-dialog"
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in"
-            onClick={() => setSelectedLogo(null)}
-          >
-            <div
-              className="bg-app-bg max-w-3xl w-full text-black rounded-none overflow-hidden relative border border-stone-200 shadow-2xl"
-              onClick={(e) => e.stopPropagation()}
-            >
+          <div id="logo-popup-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in" onClick={() => setSelectedLogo(null)} >
+            <div className="bg-app-bg max-w-3xl w-full text-black rounded-none overflow-hidden relative border border-stone-200 shadow-2xl" onClick={(e) => e.stopPropagation()} >
               {/* Close Button */}
               <button
                 onClick={() => setSelectedLogo(null)}

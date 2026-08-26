@@ -9,6 +9,10 @@ import {
   TestimonialItem,
   StatItem
 } from './types';
+import orviaBranding from '../assets/images/Branding/orviabranding.png';
+import orviaBrandingSecond from '../assets/images/Branding/orviabranding2.png';
+import threadlybranding from '../assets/images/Branding/threadlybranding.png';
+import threadlybranding2 from '../assets/images/Branding/threadlybranding2.png';
 
 export const LOGO_ITEMS: LogoItem[] = [
   {
@@ -80,35 +84,46 @@ export const LOGO_ITEMS: LogoItem[] = [
 export const BRANDING_PROJECTS: BrandingProject[] = [
   {
     id: 'b1',
-    title: 'LUMINA - Premium Skincare Rebrand',
-    category: 'Brand Strategy, Visual Identity & Creative Direction',
-    summary: 'A visual system redesign for Lumina Skincare, aiming for high shelf impact and natural minimal aesthetics on premium glass tubes.',
-    story: 'Lumina demanded an identity that felt like a quiet morning ritual. We stripped away heavy colors in favor of a neutral linen palette, elegant blind-debossed paper stocks, and clinical, bold typography structured with generous margins.',
-    colorPalette: [
-      { hex: '#EAE5DB', name: 'Raw Linen' },
-      { hex: '#D2C4B7', name: 'Warm Clay' },
-      { hex: '#1C1C1C', name: 'Absolute Charcoal' },
-      { hex: '#FFFFFF', name: 'Alabaster White' }
+    title: 'ORVIA – Premium Perfume Brand Identity',
+    category: 'BRAND IDENTITY, VISUAL IDENTITY & CREATIVE DIRECTION',
+    summary: 'A refined visual identity for Orvia Perfumes, crafted around timeless elegance, delicate luxury and the art of personal fragrance.',
+    story: 'Orvia represents elegance, individuality and refined simplicity. The identity combines a graceful fragrance-inspired symbol with sophisticated typography, creating a visual language that feels luxurious yet approachable. A soft neutral palette with subtle metallic accents gives the brand a premium character, while the clean packaging system creates a memorable and cohesive fragrance experience.',
+   colorPalette: [
+    { hex: '#AFC5D6', name: 'Powder Blue' },
+    { hex: '#F5EFE6', name: 'Warm Ivory' },
+    { hex: '#C6A15B', name: 'Champagne Gold' },
+    { hex: '#D8C9B8', name: 'Soft Beige' },
+    { hex: '#252525', name: 'Deep Charcoal' }
+  ],
+
+    typography: [
+      'Cormorant SB — Primary Logotype / ORVIA',
+      'Montserrat Light — Secondary Text / PERFUMES',
+      'Montserrat Rg — Packaging & Supporting Information'
     ],
-    typography: ['Playfair Display Bold (Logotype)', 'Inter Tight Light (Headers)', 'Fira Code (Technical info)'],
-    imageUrl: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=800',
-    mockupUrl: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=800'
+    imageUrl: orviaBranding,
+    mockupUrl: orviaBrandingSecond
   },
   {
     id: 'b2',
-    title: 'ESTATE CO. - Heritage Wine Identity',
-    category: 'Symmetrical Packaging & Full Brand Stationery Suit',
-    summary: 'High-end stationery suite and logo positioning for a historic vineyard introducing elite reserve bottles.',
-    story: 'The core challenge was retaining historical credibility while speaking to modern premium consumers. We created an intricate vector botanical coat of arms accompanied by heavy tactile cotton stock and gold-foil overlays for luxury stationery.',
+    title: 'THREADLY – Premium Clothing Brand Identity',
+    category: 'BRAND IDENTITY, VISUAL IDENTITY & CREATIVE DIRECTION',
+    summary: 'A refined visual identity for Threadly, a contemporary clothing brand built around timeless style, quality craftsmanship and effortless everyday fashion',
+    story: 'Threadly represents craftsmanship, detail and understated elegance. The identity combines distinctive editorial typography with a subtle thread and needle element, creating a visual language that feels premium, sophisticated and connected to the art of clothing. The oval logo structure adds a classic fashion-label character, while the clean monochrome treatment keeps the identity versatile across apparel, packaging and digital applications.',
     colorPalette: [
-      { hex: '#2B3E34', name: 'Forest Moss' },
-      { hex: '#C5A880', name: 'Sartorial Gold' },
-      { hex: '#FDFBF7', name: 'Vintage Parchment' },
-      { hex: '#111111', name: 'Estate Black' }
-    ],
-    typography: ['Cormorant Garamond Regular', 'Satoshi Light', 'Cinzel Decorative'],
-    imageUrl: 'https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?auto=format&fit=crop&q=80&w=800',
-    mockupUrl: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800'
+  { hex: '#0D182A', name: 'Midnight Navy' },
+  { hex: '#3A475A', name: 'Slate Blue' },
+  { hex: '#D9D9D9', name: 'Soft Grey' },
+  { hex: '#F5F5F5', name: 'Off White' },
+  { hex: '#FFFFFF', name: 'Pure White' }
+],
+  typography: [
+  'Cinzel Decorative — Logotype / Headings',
+  'Satoshi Light — Supporting Copy / Sub Headings',
+  'Cormorant Regular — Editorial Text / Brand Accents'
+],
+    imageUrl: threadlybranding,
+    mockupUrl: threadlybranding2
   }
 ];
 

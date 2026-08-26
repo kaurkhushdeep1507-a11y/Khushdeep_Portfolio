@@ -49,20 +49,23 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="p-6 glass-card backdrop-blur-md flex flex-col items-center justify-center text-center gap-4 border border-white/50 shadow-sm transition-all duration-300">
-            <span className="p-4 bg-stone-200/80 text-stone-850 rounded-full shadow-sm border border-stone-300/45">
-              <Download size={20} />
-            </span>
-            <div>
-              <p className="text-[9px] font-mono text-stone-500 uppercase tracking-widest font-semibold mb-1">RESUME</p>
-              <a
-                href="/assets/resume/KK%20Resume.pdf.pdf"
-                download="KK_Resume.pdf"
-                className="text-sm md:text-base font-semibold text-black hover:underline"
-              >
-                Download CV
-              </a>
-            </div>
+          <div className="glass-card backdrop-blur-md border border-white/50 shadow-sm transition-all duration-300">
+            <a
+              href="/assets/resume/KK%20Resume.pdf.pdf"
+              download="KK_Resume.pdf"
+              className="p-6 flex flex-col items-center justify-center text-center gap-4 text-black"
+              aria-label="Download CV"
+            >
+              <span className="p-4 bg-stone-200/80 text-stone-850 rounded-full shadow-sm border border-stone-300/45">
+                <Download size={20} />
+              </span>
+              <div>
+                <p className="text-[9px] font-mono text-stone-500 uppercase tracking-widest font-semibold mb-1">RESUME</p>
+                <span className="text-sm md:text-base font-semibold hover:underline">
+                  Download CV
+                </span>
+              </div>
+            </a>
           </div>
 
         </div>
