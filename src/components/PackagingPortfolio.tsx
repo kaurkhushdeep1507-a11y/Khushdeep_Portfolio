@@ -9,6 +9,9 @@ import packagingDesignImage from '../../assets/images/Social/PackagingDesign/ver
 import cashews from '../../assets/images/Social/PackagingDesign/cashews/cashews.png';
 import cashewBefore from '../../assets/images/Social/PackagingDesign/cashews/cashews_before.png';
 import cashewAfter from '../../assets/images/Social/PackagingDesign/cashews/cashews_after.png';
+import chipsafter from '../../assets/images/Social/PackagingDesign/chips/chipsafter.png';
+import chipsbefore from '../../assets/images/Social/PackagingDesign/chips/chipsbefore.png';
+import chips from '../../assets/images/Social/PackagingDesign/chips/chips.png';
 
 import test from '../../assets/images/Social/PackagingDesign/vero-facewash/Screenshot 2026-07-27 131444.png';
 
@@ -39,16 +42,16 @@ const PACKAGING_DESIGNS = [
   },
 
   {
-    id: 'product-three',
-    title: 'Product Three Title',
-    sub: 'Category / Subtitle',
+    id: 'chips-design',
+    title: 'Crispy Bites Chips',
+    sub: 'SNACK PACKAGING DESIGN',
     description:
-      'Description for your third packaging design project. Add details about materials, finish, and target market here.',
-    imageUrl: packagingDesignImage,
-    beforeImage: Vero_Face_Wash_Dieline_HD,
-    afterImage: image_2,
+      'A bold and vibrant packaging design created for Crispy Bites Chips. The design combines expressive typography, striking red and black tones, and appetising chip imagery to communicate the product’s crunchy and spicy character while creating a fun and energetic shelf presence.',
+    imageUrl: chips,
+    beforeImage: chipsbefore,
+    afterImage: chipsafter,
     synopsis:
-      'Before and after transformation summary for product three. Describe the design process and final output.',
+    'The packaging was redesigned with a strong visual identity focused on bold typography, spicy flavour cues, and vibrant food elements. The final design creates an eye-catching and energetic look that makes Crispy Bites stand out on the shelf.',
   },
 ];
 

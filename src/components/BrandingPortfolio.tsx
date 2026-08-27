@@ -135,9 +135,7 @@ export default function BrandingPortfolio() {
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute top-4 left-4 bg-black/75 backdrop-blur-md text-stone-200 py-1.5 px-3 text-[9px] font-mono uppercase tracking-widest rounded-lg">
-                Enclosure: Primary Layout
-              </div>
+
             </div>
 
             {/* Secondary Premium Mockup */}
@@ -148,9 +146,6 @@ export default function BrandingPortfolio() {
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute top-4 left-4 bg-white/85 backdrop-blur-md text-black py-1.5 px-3 text-[9px] font-mono uppercase tracking-widest font-semibold border border-white/50 rounded-lg shadow-sm">
-                Enclosure: Physical Object Mockup
-              </div>
             </div>
 
             {/* Spec footer quote */}
