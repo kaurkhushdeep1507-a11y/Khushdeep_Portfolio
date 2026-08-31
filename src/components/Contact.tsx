@@ -1,4 +1,5 @@
 import { Mail, Phone, Download } from 'lucide-react';
+import resumePdf from '../../assets/resume/KK Resume.pdf.pdf';
 
 export default function Contact() {
   return (
@@ -51,8 +52,8 @@ export default function Contact() {
 
           <div className="glass-card backdrop-blur-md border border-white/50 shadow-sm transition-all duration-300">
             <a
-              href="/assets/resume/KK%20Resume.pdf.pdf"
-              download="KK_Resume.pdf"
+              href={resumePdf}
+              download="Khushdeep_Kaur_Resume.pdf"
               className="p-6 flex flex-col items-center justify-center text-center gap-4 text-black"
               aria-label="Download CV"
             >
